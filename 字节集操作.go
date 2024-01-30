@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-type E_字节集 []byte
+type E_字节集 = []byte
 
 func E_取字节集长度(字节集数据 []byte) int {
 	return len(字节集数据)

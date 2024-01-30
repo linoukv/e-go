@@ -2,12 +2,13 @@ package e
 
 import (
 	"fmt"
-	"golang.org/x/text/width"
 	"strings"
 	"unsafe"
+
+	"golang.org/x/text/width"
 )
 
-type E_文本 string
+type E_文本 = string
 
 // 定义一个名为E_取文本左边的函数，接收两个参数：欲取其部分的文本和欲取出字符的数目
 func E_取文本左边(欲取其部分的文本 string, 欲取出字符的数目 int) string {
